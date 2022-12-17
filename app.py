@@ -1,6 +1,6 @@
 import streamlit as st
-st.title("AI to find Iris species")
-st.subheader("Enter the Iris's properties and find out it's species")
+st.title("AI to find Iris flower species")
+st.subheader("Enter the Iris flower's properties and find out it's species")
 st.subheader("MADE BY RIBENCE KADEL")
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_iris
@@ -11,10 +11,10 @@ from PIL import Image
 
 
 
-a=(st.number_input(label_visibility="visible",label="Enter sepal length of an Iris (in cms)"))
-b=st.number_input(label_visibility="visible",label="Enter sepal width of an Iris (in cms)")
-c=st.number_input(label_visibility="visible",label="Enter petal length of an Iris (in cms)")
-d=st.number_input(label_visibility="visible",label="Enter petal width of an Iris (in cms)")
+a=(st.number_input(label_visibility="visible",label="Enter sepal length of an Iris flower (in cms)"))
+b=st.number_input(label_visibility="visible",label="Enter sepal width of an Iris flower (in cms)")
+c=st.number_input(label_visibility="visible",label="Enter petal length of an Iris flower (in cms)")
+d=st.number_input(label_visibility="visible",label="Enter petal width of an Iris flower (in cms)")
 
 # st.write(type(box_a))
 
