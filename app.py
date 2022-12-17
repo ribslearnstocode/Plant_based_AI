@@ -14,7 +14,7 @@ from PIL import Image
 a=(st.number_input(label_visibility="visible",label="Enter sepal length of an Iris (in cms)"))
 b=st.number_input(label_visibility="visible",label="Enter sepal width of an Iris (in cms)")
 c=st.number_input(label_visibility="visible",label="Enter petal length of an Iris (in cms)")
-d=st.number_input(label_visibility="visible",label="Enter petalk width of an Iris (in cms)")
+d=st.number_input(label_visibility="visible",label="Enter petal width of an Iris (in cms)")
 
 # st.write(type(box_a))
 
